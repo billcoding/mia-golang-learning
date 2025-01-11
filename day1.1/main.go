@@ -27,4 +27,8 @@ Javascript
 Typescript
 Ruby
 
+
+Go语言的源代码？
+源代码必须写在扩展名为.go的文件中，否则Go语言编译器无法识别。
+
 */
