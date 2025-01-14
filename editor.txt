@@ -31,3 +31,8 @@ hell/owor,ldmypersonwo;man
 - owor
 - ldmypersonwo
 - man
+package main //声明一个主包
+import "fmt" //导入一个fmt包，调用一个包里的函数前，需要导入这个包
+func main() { //声明主函数，这个函数是程序的入口
+	fmt.Println("叫爸爸") //调用打印函数并换行
+}
