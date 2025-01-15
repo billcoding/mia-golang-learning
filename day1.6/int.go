@@ -79,7 +79,7 @@ func main() {
 		var2 -= 15
 		var2 = var2 - 5
 		var2--
-		fmt.Println("var2 =", var2)
+		fmt.Println("var2", var2)
 	}
 
 }
