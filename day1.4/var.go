@@ -40,6 +40,8 @@ string 字符串
 
 package main
 
-func main() {
+import "fmt"
 
+func main() {
+	fmt.Println()
 }

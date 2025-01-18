@@ -19,7 +19,7 @@ import "fmt"
 func main() {
 	var name = "Mia" // Mia => 名字：Mia
 	var age = 33     // 33 => 年龄：33岁
-	var height = 175 // 175 => 身高：175cm
+	var height = 158 // 175 => 身高：158cm
 	var weight = 62  // 62 => 体重：62kg
 	fmt.Println(name, age, height, weight)
 	fmt.Println("-------------------------------------------------------")
@@ -28,7 +28,11 @@ func main() {
 	fmt.Println("名字：", name)
 	fmt.Println("年龄：", age, "岁")
 	fmt.Println("身高：", height, "cm")
-	fmt.Println("体重：", weight, "kg")
+	fmt.Println("体重：", weight, "kg", "\n")
 
-	// fmt.Printf()
+	// fmt.Printf("名字：%s\n ",name)
+	// fmt.Printf("年龄：%d岁\n",age)
+	// fmt.Printf("身高：%dcm\n",height)
+	// fmt.Printf("体重：%dkg\n",weight)
+
 }

@@ -1,18 +1,19 @@
 package main //声明一个主包
 import "fmt" //导入"fmt"包，调用包之前需先导入包
-func mainee() { //声明一个主函数，此函数是程序的入口
+func main() { //声明一个主函数，此函数是程序的入口
 	fmt.Print("我的思绪很乱，可以帮帮我吗?\n") //调用函数并打印
 	fmt.Print("脑子里乱乱的，嗡嗡的\n")
 	fmt.Print("好像两个人在打架\n")
-	var a  = 10.0 //声明一个变量a=10
+	var a int = 10.0 //声明一个变量a=10
 	// var b int = 30 //声明一个变量b=30
-	var b  = 30.0
+	var b int = 30.0
 	// 声明变量的格式：
 	// var 变量名称 变量类型 = 变量值
 	// var a1 int = 10 解释1：  声明一个变量a1 类型为int 值为10
 	// var a2 int = 10 解释2：	声明一个 名称为a2 类型为int 值为10 的变量
-	fmt.Println( (a/b) )   //调用print函数打印并换行
+	fmt.Println((a / b)) //调用print函数打印并换行
 }
+
 /*
 我现在有个需求：打印姓名，年龄，身高，体重
 需求里有四个不同的东西需要分开装起来 假设这四个装东西的容器为a,b,c,d
